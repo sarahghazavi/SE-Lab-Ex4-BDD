@@ -228,3 +228,55 @@ Done
 
 
 
+\# استفاده از هوش مصنوعی
+
+
+
+در طول توسعه پروژه از هوش مصنوعی به عنوان ابزار کمکی برای تحلیل خطاها، بررسی ساختار پروژه، بهبود Git Workflow و رفع مشکلات تست استفاده شد.
+
+
+
+
+
+\## نمونه Prompt ها
+
+
+
+\### Prompt 1
+
+Analyze this Maven Java BDD project structure and suggest a professional implementation workflow using Cucumber, JUnit and Git branches.
+
+
+
+
+
+\### Prompt 2
+
+Review this Cucumber test failure output and identify the root cause. Explain the debugging steps and provide the required code changes.
+
+
+
+
+
+\### Prompt 3
+
+Design an appropriate Git workflow for a two-person software engineering lab project including issues, feature branches, commits, pull requests and remote synchronization.
+
+
+
+
+
+\### Prompt 4
+
+Review this README structure and create a professional experiment report format including project introduction, workflow, commit history, testing results and conclusions.
+
+
+
+
+
+\### Prompt 5
+
+Analyze the current test coverage of this calculator project and suggest additional meaningful JUnit and Cucumber scenarios.
+
+
+
