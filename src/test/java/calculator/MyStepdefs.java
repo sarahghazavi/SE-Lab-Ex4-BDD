@@ -26,6 +26,12 @@ public class MyStepdefs {
         result = calculator.add(value1, value2);
     }
 
+    @When("^I multiply the two values$")
+    public void iMultiplyTheTwoValues() {
+        calculator = new Calculator();
+        result = calculator.multiply(value1, value2);
+    }
+
 
     @Then("^I expect the result (\\d+)$")
     public void iExpectTheResult(int expected) {
