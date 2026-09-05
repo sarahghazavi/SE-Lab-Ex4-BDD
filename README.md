@@ -138,3 +138,93 @@ Sync with Hamgit
 
 
 
+\# Commit History
+
+
+
+در طول توسعه پروژه بیش از ۳۰ commit معنادار ایجاد شد.
+
+
+
+نمونه commit ها:
+
+
+
+Create Maven Project Structure
+
+
+
+Configure Cucumber and JUnit Dependencies
+
+
+
+Implement Calculator Core Class
+
+
+
+Create Addition Feature Scenario
+
+
+
+Implement Addition Step Definitions
+
+
+
+Create Cucumber Runner Test
+
+
+
+Implement Scenario Outline Testing
+
+
+
+Add Multiplication Feature Scenario
+
+
+
+Fix Cucumber Undefined Steps
+
+
+
+Add Division Feature Scenario
+
+
+
+Implement Subtraction Operation
+
+
+
+
+
+\# Kanban Board
+
+
+
+مدیریت Task ها توسط GitHub Projects انجام شد.
+
+
+
+مراحل:
+
+
+
+Backlog
+
+
+
+Ready
+
+
+
+In Progress
+
+
+
+Review
+
+
+
+Done
+
+
+
