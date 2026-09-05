@@ -7,8 +7,10 @@ public class Calculator {
     }
 
     public int subtract(int a, int b) {
+        // Returns the difference between two input values
         return a - b;
     }
+
 
     public int multiply(int a, int b) {
         return a * b;
