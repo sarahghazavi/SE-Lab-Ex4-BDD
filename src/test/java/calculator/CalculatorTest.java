@@ -26,4 +26,22 @@ public class CalculatorTest {
     public void testDivision() {
         assertEquals(2, calculator.divide(6, 3));
     }
+	@Test
+public void testSubtractNegativeNumbers() {
+    Calculator calculator = new Calculator();
+    assertEquals(-2, calculator.subtract(3, 5));
+}
+
+@Test
+public void testMultiplyByZero() {
+    Calculator calculator = new Calculator();
+    assertEquals(0, calculator.multiply(5, 0));
+}
+
+@Test
+public void testDivisionExactResult() {
+    Calculator calculator = new Calculator();
+    assertEquals(3, calculator.divide(6, 2));
+}
+
 }
