@@ -42,4 +42,10 @@ public class MyStepdefs {
     public void iExpectTheResult(int expected) {
         Assert.assertEquals(expected, result);
     }
+	@When("^I subtract the two values$")
+public void iSubtractTheTwoValues() {
+    calculator = new Calculator();
+    result = calculator.subtract(value1, value2);
+}
+
 }
