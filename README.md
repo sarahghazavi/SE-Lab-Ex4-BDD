@@ -62,3 +62,35 @@ Hamgit Repository:
 
 
 
+\# BDD Workflow
+
+
+
+در این پروژه ابتدا Feature File ها با زبان Gherkin ایجاد شدند.
+
+
+
+سپس Step Definition های مربوطه در Java پیاده‌سازی شدند.
+
+
+
+ساختار تست:
+
+
+
+Feature File
+
+↓
+
+Step Definition
+
+↓
+
+Calculator Class
+
+↓
+
+JUnit / Cucumber Runner
+
+
+
