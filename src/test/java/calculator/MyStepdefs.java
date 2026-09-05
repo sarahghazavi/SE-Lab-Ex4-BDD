@@ -32,6 +32,11 @@ public class MyStepdefs {
         result = calculator.multiply(value1, value2);
     }
 
+    @When("^I divide the two values$")
+    public void iDivideTheTwoValues() {
+        calculator = new Calculator();
+        result = calculator.divide(value1, value2);
+    }
 
     @Then("^I expect the result (\\d+)$")
     public void iExpectTheResult(int expected) {
