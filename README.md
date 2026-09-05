@@ -94,3 +94,47 @@ JUnit / Cucumber Runner
 
 
 
+\# Git Workflow
+
+
+
+برای هر قابلیت یک Branch مستقل ایجاد شد.
+
+
+
+روند توسعه:
+
+
+
+Issue Creation
+
+↓
+
+Feature Branch
+
+↓
+
+Implementation
+
+↓
+
+Commit
+
+↓
+
+Push
+
+↓
+
+Pull Request
+
+↓
+
+Merge to main
+
+↓
+
+Sync with Hamgit
+
+
+
